@@ -1,0 +1,90 @@
+.QCell {
+    background-color: #c2c5aa;
+    border: none;
+    color: #545454;
+    padding: 1px 1px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;    
+    border-radius: 12px;
+    cursor: pointer;
+  }
+.QCellD{
+    background-color: #c2c5aa;
+    border: none;
+    color: #545454;
+    padding: 1px 1px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;    
+    border-radius: 12px;
+    pointer-events: none;
+    cursor: default;
+}
+.QCellL1 {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    font-size: 40px;
+    line-height: 100px;
+}
+.QCellL2 {
+    height: 70px;
+    width: 70px;
+    margin: 4px;
+    font-size: 30px;
+    line-height: 70px;
+}
+.QCellL3 {
+    height: 45px;
+    width: 45px;
+    margin: 3px;
+    font-size: 25px;
+    line-height: 45px;
+}
+.QCellL4 {
+    height: 35px;
+    width: 35px;
+    margin: 2px;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.QCellL5 {
+    height: 32px;
+    width: 32px;
+    margin: 1px;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.QCell:hover{
+    background-color: #656d4a;
+    color: white;
+}
+
+.selected{
+    background-color: #f8b82e;
+}
+
+.selected:hover{
+    background-color: #f79902;
+}
+
+.waitingToConfirm{
+    background-color: #c4a010;
+}
+
+.waitingToConfirm:hover{
+    background-color: #c4a010;
+    color: white;
+}
+
+.confirmed{
+    background-color: #82896f;
+}
+
+.confirmed:hover{
+    background-color: #656d4a;
+    color: white;
+}

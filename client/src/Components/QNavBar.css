@@ -1,0 +1,10 @@
+.decoration{
+    text-decoration: none;
+    color: black;
+}
+
+.decoration:hover {
+    background-color: none;
+    text-decoration: none;
+    color: black;
+  }
